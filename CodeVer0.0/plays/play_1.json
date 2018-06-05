@@ -1,0 +1,14 @@
+{
+  "job_id": 1,
+  "truck_id": 2,
+  "initial_location": 15,
+  "events": [{
+    "type": "pickup",
+    "location": 149,
+    "items": [1]
+  }, {
+    "type": "drop",
+    "location": 150,
+    "items": [1]
+  }]
+}

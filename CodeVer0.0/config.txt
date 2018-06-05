@@ -1,0 +1,14 @@
+{
+	"pickup_check_distance_trigger": 3,
+	"pickup_check_distance_window": 1,
+	"pickup_post_seconds": 2,
+	"drop_check_distance": 1,
+	"drop_pre_seconds": 2,
+	"rfid_wait_timeout": 5,
+	"job_manager_port": 5000,
+	"database_name": "locatible_logistics",
+	"database_password": "logos01mysql",
+	"database_user": "root",
+	"database_host": "192.168.1.12",
+	"activate_queries": true
+}
