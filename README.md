@@ -1,2 +1,2 @@
-# locatible_Pyjob
-Locatible Python 
+# loc_Pyjob
+Locatible Python job
