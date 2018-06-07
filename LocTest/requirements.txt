@@ -1,0 +1,4 @@
+# python 3.4
+
+flask
+--allow-external mysql-connector-python mysql-connector-python
