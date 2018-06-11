@@ -5,7 +5,7 @@ Locatible Python job
 
 Below are the listed changes in the Database.py and the JobMonitor.py codes:
 
-####Database.py :
+#### Database.py :
 =============
 1)Added a function has_cannot_place_alerts, which checks the alerts table and returns the Returns whether this job has currently active 'Cannot_Place_Alert' alerts.It returns *True* if the monitored job has active active 'Cannot_Place_Alert'.
 -- have checked it on the local db and seems to be working fine
@@ -15,7 +15,7 @@ Below are the listed changes in the Database.py and the JobMonitor.py codes:
 
 -- have checked it on the local db and seems to be working fine
 
-####job_monitor.py :
+#### job_monitor.py :
 =================
 0) A Class variable for the NOE location is defined as __NOE_loc = 79 (for the geo_location name '02TK149')
 
