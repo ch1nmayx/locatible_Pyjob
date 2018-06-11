@@ -27,19 +27,16 @@ Below are the listed changes in the Database.py and the JobMonitor.py codes:
 
 The runs to do are as follows:
 
-Run-1)
+>Run-1)
+
 1) Generate a "Cannot_Place_Alert" which updates the alerts table for the particular job_id and sets the above alert to be active. To check if the alerts table is getting updated.
 2) Once the items has been dropped at the NOE location 79, to check if for that item_id the curr_loc_id is changing in the "items" table.
 3) Once the task has been finalied we should see that the job_tasks table for that job_id table should also change with the task details
 4) Finally, we should see that the alert in the step-1) should be inactive for that job_id in the alerts table
 
-Run-1)
-1) Generate a "Cannot_Place_Alert" which updates the alerts table for the particular job_id and sets the above alert to be active. To check if the alerts table is getting updated.
-2) Once the items has been dropped at the NOE location 79, to check if for that item_id the curr_loc_id is changing in the "items" table.
-3) Once the task has been finalied we should see that the job_tasks table for that job_id table should also change with the task details
-4) Finally, we should see that the alert in the step-1) should be inactive for that job_id in the alerts table
 
-Run-2)
+>Run-2)
+
 1) Generate a "Damaged_Item" which updates the alerts table for the particular job_id and sets the above alert to be active. To check if the alerts table is getting updated.
 2) Once the items has been dropped at the NOE location 79, to check if for that item_id the curr_loc_id is changing in the "items" table.
 3) Once the task has been finalied we should see that the job_tasks table for that job_id table should also change with the task details
